@@ -1,6 +1,6 @@
 ---
 title: Home
-banner_image: "/img/banner.png"
+banner_image: "/uploads/2018/02/17/bridge3.jpg"
 layout: landing-page
 heading: Belkirk College
 partners:
@@ -25,6 +25,7 @@ hero_button:
   text: Learn more
   href: "/about"
 show_news: true
+show_staff: true
 menu:
   navigation:
     identifier: _index
