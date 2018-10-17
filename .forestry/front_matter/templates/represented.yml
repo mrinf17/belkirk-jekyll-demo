@@ -1,0 +1,38 @@
+---
+label: Represented
+hide_body: false
+is_partial: false
+fields:
+- type: text
+  name: title
+  label: Title
+  description: Address or title for property.
+  config:
+    required: true
+- type: text
+  label: Submarket
+  name: submarket
+  description: Name of neighborhood.
+- type: text
+  label: Listed Price
+  name: listed_price
+  description: Asking price on the market.
+  config:
+    required: true
+- type: textarea
+  label: Description
+  name: description
+  description: Description of the property.
+  config:
+    wysiwyg: true
+    schema:
+      format: markdown
+    required: true
+- type: file
+  name: banner_image
+  label: Banner Image
+  description: Primary image for property.
+- type: tag_list
+  name: tags
+  label: Tags
+  description: Tag attributes of property.
