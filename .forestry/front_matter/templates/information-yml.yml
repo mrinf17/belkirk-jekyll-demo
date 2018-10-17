@@ -48,5 +48,8 @@ fields:
   type: text
   hidden: false
   default: ''
+- type: text
+  label: Instagram
+  name: instagram
 pages:
 - _data/information.yml
